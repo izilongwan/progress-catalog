@@ -3,6 +3,7 @@
   "version": "1.0.7",
   "description": "Generate a progress catalog by html tag (h1, h2, h3, h4, h5, h6)",
   "main": "dist/progress-catalog.min.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "build": "babel --presets=es2015 src/index.js -o dist/progress-catalog.js && uglifyjs dist/progress-catalog.js -m -o dist/progress-catalog.min.js"
   },
